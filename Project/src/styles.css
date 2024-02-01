@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main_container,
+.person_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin: 4vw;
+  background-color: rgb(210, 106, 139);
+}
+
+/* -------------------------------                   Nav                 ----------------------------------- */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 4vw;
+  background-color: yellow;
+  font-size: 35px;
+}
+
+.nav_list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10vw;
+  margin: 25px;
+  align-items: center;
+}
+
+.nav_photo {
+  margin: 3vw;
+  width: 10vw;
+  height: 10vw;
+}
+
+/* ---------------------------------                  FBI           ----------------------------------- */
+.about {
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+  margin: 4vw;
+  font-size: 2vh;
+  gap: 2vw;
+  padding: 2vw;
+  align-items: center;
+}
+
+.fbi-img {
+  width: 20vw;
+  height: 20vw;
+}
+
+/* ---------------------------------                  Wanted           ----------------------------------- */
+
+.wanted {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(30, 246, 113);
+  margin: 4vw;
+  font-size: 35px;
+}
+
+/* ---------------------------------                  personas           ----------------------------------- */
+.person {
+  padding: 15px;
+  width: 20vw;
+  border-radius: 20%;
+  text-align: center;
+
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: aquamarine;
+  margin: auto;
+}
+
+.person-inner {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.main-image {
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 5px 80px red;
+}
+
+.main-image:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.number {
+  font-weight: bolder;
+}
+
+.name {
+  font-weight: bolder;
+}
+
+/* ---------------------------------                  Contact           ----------------------------------- */
+.contact {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(186, 240, 79);
+  flex-direction: column;
+  margin: 4vw;
+  font-size: 35px;
+  align-items: center;
+}
+
+.contact-text {
+  font-size: 35px;
+  margin-top: 2vw;
+}
+
+.contact-form {
+  margin: 3vw;
+  background-color: green;
+  padding: 3vw;
+  border-radius: 2vw;
+}
+
+form .button {
+  height: 45px;
+  margin: 35px 0;
+}
+form .button input {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color: #0d11ee;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+form .button input:hover {
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.user-details .input-box input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+/* ---------------------------------                  Footer           ----------------------------------- */
+.us {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(25, 131, 223);
+  margin: 4vw;
+  font-size: 35px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-list {
+  display: flex;
+
+  list-style: none;
+  gap: 20px;
+}
+
+.list {
+  font-size: 30px;
+  list-style: none;
+  margin: 4vw;
+}
+
+.bold {
+  font-weight: bolder;
+}
+
+.about-title {
+  margin-top: 3vw;
+  font-weight: bolder;
+}
+
+/* ----------------------------------------           persona                 ------------------------------------- */
+
+.person-info {
+  display: flex;
+  justify-content: center;
+  margin: 2vw;
+  gap: 2vw;
+  padding: 3vw;
+  align-items: center;
+  background-color: rgb(226, 154, 154);
+  border-radius: 10%;
+}
+
+.main-person {
+  width: 30vw;
+  height: 35vw;
+  box-shadow: 5px 5px 30px brown;
+}
+
+.person-data {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1vw;
+}
+
+.person-name {
+  font-weight: bolder;
+}
+
+.div-know {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.button-know {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  margin: 2vw;
+  padding: 2vw;
+}
+
+/* Button Hover Effect */
+.button-know:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+  transform: scale(1.05);
+  transition: 0.7s;
+}
+
+.most-wanted {
+  background-color: #cd8495;
+  margin: 5px;
+  font-weight: bold;
+}
